@@ -4,9 +4,11 @@
 @import "./components/header.scss";
 @import "./components/banner.scss";
 @import "./components/cases.scss";
+@import "./components/introOverlay.scss";
 
 body,
 html {
+  visibility: hidden;
   user-select: none;
   background: $white;
   overscroll-behavior: none;
